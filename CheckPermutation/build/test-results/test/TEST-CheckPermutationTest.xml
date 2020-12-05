@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckPermutationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-05T22:38:18" hostname="DESKTOP-TLNTQV0" time="0.026">
+  <properties/>
+  <testcase name="should_return_true_for_equals_strings()" classname="CheckPermutationTest" time="0.019"/>
+  <testcase name="should_return_false_for_distinct_strings()" classname="CheckPermutationTest" time="0.001"/>
+  <testcase name="should_return_true_for_a_permutation_strings()" classname="CheckPermutationTest" time="0.004"/>
+  <testcase name="should_return_false_for_distinct_one_strings()" classname="CheckPermutationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
