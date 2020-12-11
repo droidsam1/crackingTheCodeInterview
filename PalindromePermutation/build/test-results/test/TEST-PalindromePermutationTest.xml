@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PalindromePermutationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-12-11T16:57:47" hostname="DESKTOP-TLNTQV0" time="0.027">
+  <properties/>
+  <testcase name="should_return_false_for_a_one_word_non_palindrome()" classname="PalindromePermutationTest" time="0.019"/>
+  <testcase name="should_return_false_for_a_non_palindrome()" classname="PalindromePermutationTest" time="0.0"/>
+  <testcase name="should_return_true_for_common_palindrome_permutation()" classname="PalindromePermutationTest" time="0.001"/>
+  <testcase name="should_return_true_for_example()" classname="PalindromePermutationTest" time="0.001"/>
+  <testcase name="should_return_true_for_a_one_word_palindrome_permutation()" classname="PalindromePermutationTest" time="0.001"/>
+  <testcase name="should_return_true_for_common_palindrome()" classname="PalindromePermutationTest" time="0.0"/>
+  <testcase name="should_return_true_for_a_one_word_palindrome()" classname="PalindromePermutationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
