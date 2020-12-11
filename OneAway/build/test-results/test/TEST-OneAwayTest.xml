@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OneAwayTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-12-11T17:49:56" hostname="DESKTOP-TLNTQV0" time="0.024">
+  <properties/>
+  <testcase name="should_return_false_for_example()" classname="OneAwayTest" time="0.019"/>
+  <testcase name="should_return_false_for_different_words()" classname="OneAwayTest" time="0.001"/>
+  <testcase name="should_return_true_for_example()" classname="OneAwayTest" time="0.001"/>
+  <testcase name="should_return_true_for_same_word()" classname="OneAwayTest" time="0.001"/>
+  <testcase name="should_return_true_for_one_common_word()" classname="OneAwayTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
