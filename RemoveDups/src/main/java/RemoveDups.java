@@ -7,7 +7,6 @@ How would you solve this problem if a temporary buffer is not allowed?
 
 import java.util.HashSet;
 import java.util.LinkedList;
-import java.util.Set;
 
 public class RemoveDups {
 
@@ -17,6 +16,6 @@ public class RemoveDups {
         above pointer searching for duplicates and removing them in-place.
      */
     public static<T> LinkedList remove(LinkedList<T> linkedList){
-       return new LinkedList<T>( new HashSet<>(linkedList));
+       return new LinkedList<>( new HashSet<>(linkedList));
     }
 }
