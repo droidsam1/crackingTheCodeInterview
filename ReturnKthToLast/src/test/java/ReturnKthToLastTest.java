@@ -28,6 +28,6 @@ class ReturnKthToLastTest {
     @Test
     void shouldReturnLast() {
         LinkedListNode linkedList = getNumberedLinkedListOf(11);
-        assertEquals(11\, ReturnKthToLast.getKthToLast(linkedList, 0).data);
+        assertEquals(11, ReturnKthToLast.getKthToLast(linkedList, 0).data);
     }
 }
