@@ -41,4 +41,19 @@ class LoopDetectionTest {
         LinkedListNode corruptNode  = LoopDetection.getCorruptedNode(generateExampleLinkedListWithNoLoops());
         assertNull(corruptNode);
     }
+
+
+    @Test
+    void should_return_C_for_given_example_with_floyds() {
+        LinkedListNode corruptNode  = LoopDetection.getCorruptedNodeWithFloydsAlgorithm(generateExampleLoopLinkedList());
+        assertNotNull(corruptNode);
+        assertEquals('C',corruptNode.data);
+        assertEquals('D',corruptNode.next.data);
+    }
+
+    @Test
+    void should_return_null_for_non_looping_linked_list_with_floyds() {
+        LinkedListNode corruptNode  = LoopDetection.getCorruptedNodeWithFloydsAlgorithm(generateExampleLinkedListWithNoLoops());
+        assertNull(corruptNode);
+    }
 }
