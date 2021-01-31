@@ -17,6 +17,7 @@ public class AnimalShelterWithTwoStacks {
 
     private Queue<ShelteredAnimal> dogs;
     private Queue<ShelteredAnimal> cats;
+    //using only the date, doesn't work for several insertions in same millisecond
     private Integer order;
 
     public AnimalShelterWithTwoStacks() {
